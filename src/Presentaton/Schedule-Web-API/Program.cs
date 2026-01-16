@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSwaggerGen(c =>
 {
     c.EnableAnnotations();
-    c.OperationFilter<AddPaginatedRequestSummaryFilter>();
+  /*  c.OperationFilter<AddPaginatedRequestSummaryFilter>();*/
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Scedule Web Api",
